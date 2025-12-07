@@ -1,20 +1,8 @@
-// ===== TRAIT DEFINITIONS =====
+
 // Rows and columns of the grid.
 const TRAITS_ROW = ["Ace", "Clan", "Giant", "Goblin", "P.E.K.K.A", "Noble", "Undead"];
 const TRAITS_COL = ["Assassin", "Blaster", "Brawler", "Brutalist", "Ranger", "Superstar"];
 
-/**
- * CARD_DATA:
- * - id:      unique string (any format you like)
- * - displayName: text shown on the card
- * - rowTrait / colTrait: must match values from TRAITS_ROW / TRAITS_COL
- * - image:   relative path or URL to the card art (or null if you don't have one yet)
- *
- * To update month to month:
- * - remove entries for nerfed/removed cards
- * - add entries for new cards
- * - add new traits to TRAITS_ROW / TRAITS_COL if needed
- */
 
 const CARD_DATA = [
     // Row: Ace

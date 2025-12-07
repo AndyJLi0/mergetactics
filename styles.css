@@ -1,4 +1,4 @@
-/* ========= Base ========= */
+
 
 * {
   box-sizing: border-box;
@@ -37,7 +37,6 @@ h2 {
   margin-top: 12px;
 }
 
-/* ========= Grid ========= */
 
 #grid {
   display: grid;
@@ -99,12 +98,12 @@ h2 {
 /* States */
 
 .card-cell.selected {
-  border-color: #ffffff;          /* simple white border for selected */
+  border-color: #ffffff;         
   background: #17481a;
 }
 
 .card-cell.viable:not(.selected) {
-  border-color: #888888;          /* subtle grey hint for viable */
+  border-color: #888888;          
 }
 
 .card-cell.dead {
@@ -218,8 +217,6 @@ h2 {
   margin-bottom: 4px;
   gap: 8px;
 }
-
-/* reuse existing .legend styles if you have them; no change needed there */
 
 .reset-button {
   font-size: 11px;

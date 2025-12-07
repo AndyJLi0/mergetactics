@@ -1,4 +1,3 @@
-// ===== CONFIG =====
 const MAX_CARDS_ON_BOARD = 6;
 const TRAITS_NEEDED = 6;
 
@@ -200,7 +199,7 @@ const traitSummaryEl = document.getElementById("traitSummary");
 const deckCountEl = document.getElementById("deckCount");
 
 function updateSidePanel() {
-    // ----- Trait summary (unchanged behavior) -----
+    // ----- Trait summary -----
     const counts = computeTraitCountsForSelection();
     const entries = Object.entries(counts);
 
