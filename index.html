@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Merge Tactics 6 Trait Deck Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+
+<body>
+  <div>
+    <h1>Merge Tactics 6 Trait Deck Builder</h1>
+    <div class="subtle">
+      Click cards in the grid to lock in the ones you’re using. The grid highlights all cards that can still fit into
+      some 6 trait decks.
+    </div>
+
+<div class="layout">
+  <div class="board-column">
+    <div class="top-bar">
+      <div class="legend">
+        <span><span class="legend-box selected"></span> Selected card</span>
+        <span><span class="legend-box viable"></span> Viable completion</span>
+        <span><span class="legend-box dead"></span> Not in any 6-trait deck (given current picks)</span>
+      </div>
+
+      <button id="resetButton" class="reset-button">Reset selection</button>
+    </div>
+
+    <div id="grid"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Current state</h2>
+    <div class="section" id="traitSummary"></div>
+    <div class="section" id="deckCount"></div>
+  </div>
+</div>
+
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
