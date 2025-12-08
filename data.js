@@ -9,7 +9,6 @@ const CARD_DATA = [
     { id: "ace_assassin", displayName: "Bandit", rowTrait: "Ace", colTrait: "Assassin", image: "images/bandit.webp" },
     { id: "ace_blaster", displayName: "Executioner", rowTrait: "Ace", colTrait: "Blaster", image: "images/executioner.webp" },
     { id: "ace_brawler", displayName: "Mega Knight", rowTrait: "Ace", colTrait: "Brawler", image: "images/mega-knight.webp" },
-
     { id: "ace_superstar", displayName: "Monk", rowTrait: "Ace", colTrait: "Superstar", image: "images/monk.webp" },
 
     // Row: Clan
@@ -36,7 +35,7 @@ const CARD_DATA = [
     { id: "noble_assassin", displayName: "Golden Knight", rowTrait: "Noble", colTrait: "Assassin", image: "images/golden-knight.webp" },
     { id: "noble_blaster", displayName: "Princess", rowTrait: "Noble", colTrait: "Blaster", image: "images/princess.webp" },
     { id: "noble_brawler", displayName: "Prince", rowTrait: "Noble", colTrait: "Brawler", image: "images/prince.webp" },
-
+    { id: "noble_superstar", displayName: "Musketeer", rowTrait: "Noble", colTrait: "Superstar", image: "images/musketeer.webp" },
     // Row: Undead
     { id: "undead_assassin", displayName: "Royal Ghost", rowTrait: "Undead", colTrait: "Assassin", image: "images/royal-ghost.webp" },
     { id: "undead_brawler", displayName: "Skeleton King", rowTrait: "Undead", colTrait: "Brutalist", image: "images/skeleton-king.webp" },
